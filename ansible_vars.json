@@ -1,0 +1,7 @@
+{
+"POD_NETWORK_CIDR":"192.168.0.0/16",
+"master_ansible_host":"169.50.52.23",
+"worker1_ansible_host":"169.50.52.24",
+"ansible_python_interpreter":"/usr/bin/python3",
+"created_user":"ubuntu"
+}
