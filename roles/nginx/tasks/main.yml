@@ -1,0 +1,7 @@
+- name: Copy nginx app yml file to master machine
+  copy:
+    src: templates/nginx-app.yml
+    dest: /home/ubuntu/nginx-app.yml
+
+- name: Apply nginx app on the K8S cluster
+  shell: kubectl apply -f /home/ubuntu/nginx-app.yml
