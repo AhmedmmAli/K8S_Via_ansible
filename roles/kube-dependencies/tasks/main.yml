@@ -23,3 +23,14 @@
    repo: deb http://apt.kubernetes.io/ kubernetes-xenial main
    state: present
    filename: 'kubernetes'
+
+- name: install kubelet
+  apt:
+   name: kubelet=1.13.2-00
+   state: present
+   update_cache: true
+
+- name: install kubeadm
+  apt:
+   name: kubeadm=1.13.2-00
+   state: present
