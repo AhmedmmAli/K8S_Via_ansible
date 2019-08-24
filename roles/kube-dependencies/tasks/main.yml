@@ -4,3 +4,12 @@
    name: docker.io
    state: present
    update_cache: true
+
+- name: Disable swap (if configured).
+  command: swapoff -a
+
+- name: install APT Transport HTTPS
+  apt:
+   name: apt-transport-https
+   state: present
+
