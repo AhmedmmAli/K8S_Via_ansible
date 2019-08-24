@@ -12,3 +12,9 @@
   become: yes
   roles:
     - roles/kubectl
+
+- hosts: master
+  become: yes
+  roles:
+    - roles/master
+
