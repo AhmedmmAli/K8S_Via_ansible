@@ -18,3 +18,9 @@
   roles:
     - roles/master
 
+- hosts: workers
+  become: yes
+  roles:
+    - roles/workers
+
+
