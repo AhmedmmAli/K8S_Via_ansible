@@ -21,7 +21,7 @@ build a web server serving anything of your choice deployed on a Kubernetes clus
 
 6- Run command "kubectl get po" to see the 3 replicas of nginx running.
 
-7- Run command "kubectl get svc" to see the service file that belonge to nginx.
+7- Run command "kubectl get svc" to see the service file that belong to nginx.
 
 8- To access nginx from the browser you must write: IP_OF_THE_MASTER_MACHINE:NodePort.
 
